@@ -45,9 +45,9 @@ function create(s) {
     pallina = PP.assets.image.add(s, img_pallina, LARGHEZZA / 2 , ALTEZZA / 2, 0.5, 0.5);
 
     // racchetta_sx = PP.shapes.rectangle_add(s, MARGINE, ALTEZZA / 2, L_RACCHETTA, A_RACCHETTA, BIANCO, 1);
-   // racchetta_dx = PP.shapes.rectangle_add(s, LARGHEZZA - MARGINE, ALTEZZA / 2, L_RACCHETTA, A_RACCHETTA, BIANCO, 1);
-   //  pallina = PP.shapes.rectangle_add(s, LARGHEZZA / 2 , ALTEZZA / 2, L_PALLINA, L_PALLINA, BIANCO, 1);
-   // testo_punti = PP.text.text_styled_add(s, LARGHEZZA / 2, 30, "0-0", 48, "Arial", "bold" , BIANCO, null, 0.5, 0);
+    // racchetta_dx = PP.shapes.rectangle_add(s, LARGHEZZA - MARGINE, ALTEZZA / 2, L_RACCHETTA, A_RACCHETTA, BIANCO, 1);
+    // pallina = PP.shapes.rectangle_add(s, LARGHEZZA / 2 , ALTEZZA / 2, L_PALLINA, L_PALLINA, BIANCO, 1);
+    testo_punti = PP.shapes.text_styled_add(s, LARGHEZZA / 2, 30, "0-0", 48, "Arial", "bold", BIANCO, null, 0.5, 0);
 }
 
 function muovi_pallina (s) {
