@@ -75,8 +75,14 @@ function controlla_punto() {
     if (x < 0 || x > LARGHEZZA) {
     pallina.geometry.x = LARGHEZZA / 2;
     pallina.geometry.y = ALTEZZA / 2;
-}
+    }
 
+    if (x < 0) {
+        punti_dx += 1;
+    }
+    if (x > LARGHEZZA) {
+        punti_sx += 1;
+    }
     console.log(`punti: ${punti_sx}-${punti_dx}`);
 }
 
